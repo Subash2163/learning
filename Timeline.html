@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Learning Timeline</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<style>
+    body {
+        margin:0%; padding:0%;background-color: darkgrey;
+        background-image: linear-gradient(to right, aqua, gold);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .custom-carousel {
+    max-width: 400px;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+  }
+  .custom-carousel .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .carousel-item h5 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .carousel-item p {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  .caroover{
+    background-color: aqua;
+
+  }
+  .header{
+    position: sticky;
+    top: 0px;
+    background-image: linear-gradient(red,yello);
+  }
+</style>
+</head>
+<body>
+    <div class="container-fluid text-center">
+
+<div class="header" >
+        <h1 class="text-primary">LEARNING TIMELINE <br> WEB DEVELOPEMT USING JAVA</h1>
+    </div>
+     <div class="sec">
+        <p>In this page, I would like to share what are the contents and components that I learned through my learning path.
+            I just started learning and as of now I learned three major topics which is widely used in Web Development
+        </p>
+        Components I Learned
+          <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./Images/ICON-Boot.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./Images/Icon-CSS.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./Images/Icon-HTML.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+    <div class="content">
+        <h3>HTML - HyperText Markup Language</h3>
+        <p>HTML, short for HyperText Markup Language, is the foundation of the World Wide Web. It's a markup language used to structure and organize content on web pages. HTML defines the structure of a webpage, telling a web browser how to display text, images, links, and other multimedia elements. </p>
+        <h3>CSS - Cascading Style Sheet</h3>
+        <p>CSS stands for Cascading Style Sheets. It's a stylesheet language used to describe the look and formatting of a document written in HTML (or XML). While HTML provides the structure of the page, CSS controls the presentation—how it looks to users.</p>
+        <h3>Bootstrap</h3>
+        <p>Bootstrap is a free and open-source front-end framework used to develop responsive and mobile-first websites and web applications. It was originally developed by Twitter and is now maintained by the open-source community. Bootstrap provides a set of ready-to-use CSS and JavaScript components that help developers build clean, consistent, and responsive web interfaces quickly.</p>
+    </div>
+    <div class="footer">
+        <p>2025| Copyrighted by Subash S</p>
+    </div>
+    </div>
+</body>
+</html>
